@@ -8,7 +8,7 @@ import joblib
 import os
 
 # 设定模型路径
-MODEL_PATH = os.path.join("C:/Users/xinrongli/Desktop/平台/莫愁师姐平台/0921", "ET_optimized.pkl")
+MODEL_PATH = os.path.join("0921", "ET_optimized.pkl")
 
 
 # ✅ 加载模型（只加载一次，提高性能）
@@ -67,3 +67,4 @@ st.write("""
 - This model is trained using the AdaBoost algorithm and is designed for predicting protein separation experiment outcomes.
 - Ensure input parameters are within a reasonable range for accurate predictions.
 """)
+
