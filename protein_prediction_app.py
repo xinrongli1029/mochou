@@ -23,7 +23,7 @@ def load_model():
 adaboost_model = load_model()
 
 # ✅ 设置页面标题
-st.title("🧪 Protein Separation Prediction Platform - Based on ExtraBoost Machine Learning Model")
+st.title("🧪 Protein Separation Prediction Platform - Based on Extratrees Machine Learning Model")
 st.write("""
 This platform allows input of experimental parameters for protein separation and provides predictions. 
 Enter the parameters on the left and click **"🚀 Predict"** to obtain results based on the model.
@@ -67,5 +67,6 @@ st.write("""
 - This model is trained using the AdaBoost algorithm and is designed for predicting protein separation experiment outcomes.
 - Ensure input parameters are within a reasonable range for accurate predictions.
 """)
+
 
 
